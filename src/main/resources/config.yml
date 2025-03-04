@@ -1,0 +1,14 @@
+discord:
+  token: "YOUR_BOT_TOKEN_HERE"
+
+control_panel:
+  channel_id: "DISCORD_CHANNEL_ID"
+  message_id: ""  # НЕ ТРОГАТЬ, ЕСЛИ НЕ ЗНАЕТЕ
+
+punishments:
+  ban:
+    command: "ban {player} {duration} {reason}"
+  mute:
+    command: "mute {player} {duration} {reason}"
+  kick:
+    command: "kick {player} {reason}"

@@ -1,0 +1,17 @@
+name: DiscordPunishments
+version: '1.0.0'
+main: com.funbuilders.discordPunishments.Main
+api-version: '1.20'
+authors: [ TheSashaDev ]
+website: dayzcraft.pro
+commands:
+  discordpunish:
+    description: Configure the Discord Punishments control panel
+    usage: /<command> [setup]
+    permission: discordpunishments.admin
+    aliases: [dpunish]
+
+permissions:
+  discordpunishments.admin:
+    description: Allows setting up and managing the Discord Punishments control panel
+    default: op
